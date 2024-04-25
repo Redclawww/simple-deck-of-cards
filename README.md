@@ -19,7 +19,7 @@ Follow these steps to get the project up and running on your local machine:
    git clone https://github.com/your-username/deck-of-cards.git
 
 2. ***Navigate to the project directory**
- ```bash
+  ```bash
    cd deck-of-cards
 
 3. ***Install dependencies**
