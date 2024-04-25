@@ -1,16 +1,15 @@
-export const data = [
-  {
-    title: 'Product 1',
-    subtitle: 'Subtitle for Product 1',
-    description: 'This is a description for Product 1. It provides more details about the product.',
-    imageUrl: 'https://example.com/product1.jpg',
-  },
-  {
-    title: 'Product 2',
-    subtitle: 'Subtitle for Product 2',
-    description: 'This is a longer description for Product 2. It provides more detailed information about the product, including its features, benefits, and specifications.',
-    imageUrl: 'https://example.com/product2.jpg',
-  },
+export const data = [{
+  title: 'Product 1',
+  subtitle: 'Subtitle for Product 1',
+  description: 'This is a description for Product 1. It provides <strong>more details</strong> about the product.',
+  imageUrl: 'https://example.com/product1.jpg',
+},
+{
+  title: 'Product 2',
+  subtitle: 'Subtitle for Product 2',
+  description: 'This is a longer description for Product 2. It provides more detailed information about the product, including its features, benefits, and specifications. <ul><li>Feature 1</li></ul>',
+  imageUrl: 'https://example.com/product2.jpg',
+},
   {
     title: 'Product 3',
     subtitle: 'Subtitle for Product 3',
