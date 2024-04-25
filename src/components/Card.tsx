@@ -14,7 +14,7 @@ const Card = (props: Props) => {
         <div className='flex flex-col gap-3 px-3 pt-4'>
             <h3 className='md:text-2xl text-lg montserrat-semibold text-[#e61d1d]'>{props.title}</h3>
             <h5 className='montserrat-regular'>{props.subtitle}</h5> 
-            <h6 className='text-sm montserrat-regular'>{props.description}</h6>
+            <h6 className='text-sm montserrat-regular line-clamp-3'>{props.description}</h6>
             <button className='w-[120px] py-3 bg-[#d35400] rounded-2xl montserrat-regular absolute left-5 bottom-5'>
             View More
         </button>
